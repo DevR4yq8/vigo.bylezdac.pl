@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigoletto - Streamer Twitch & TikTok</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <nav class="nav container">
+        <a href="/" class="logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
+            </svg>
+            <span>Vigoletto</span>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Przełącz menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links">
+            <a href="/" class="active">Strona Główna</a>
+            <a href="/games/ets2.html">ETS2</a>
+            <a href="/games/efootball.html" class="active">eFootball</a>
+            <a href="https://discord.gg/sHYStpqyX3" target="_blank" class="discord-btn">Dołącz na Discord</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.6) 50%, var(--color-dark) 100%), url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg');">
+        <div class="hero-content container">
+            <div class="live-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                    <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
+                </svg>
+                <span>Live prawie codziennie!</span>
+            </div>
+            <h1>Witaj na streamie <span class="gradient-text">Vigoletto</span>!</h1>
+            <p>Dołącz do mnie w epickiej podróży przez Euro Truck Simulator 2, Days Gone i wiele innych niesamowitych gier!</p>
+            <div class="hero-buttons">
+                <a href="https://twitch.tv/vigoletto" target="_blank" class="btn btn-primary">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                        <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
+                    </svg>
+                    Obserwuj na Twitch
+                </a>
+                <a href="https://discord.gg/sHYStpqyX3" target="_blank" class="btn btn-secondary">Dołącz na Discord</a>
+            </div>
+        </div>
+        <button class="scroll-down" aria-label="Przewiń do treści">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                <path d="M12 5v14m-7-7 7 7 7-7"></path>
+            </svg>
+        </button>
+    </section>
+
+    <section class="schedule">
+        <div class="container">
+            <h2>Harmonogram Streamów</h2>
+            <p class="section-desc">Sprawdź, kiedy będę następnym razem na żywo. Wszystkie godziny podane są w strefie czasowej GMT+2.</p>
+            <div class="schedule-grid" id="scheduleGrid">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="games">
+        <div class="container">
+            <h2>Gry w które gram</h2>
+            <p class="section-desc">To główne gry, które regularnie streamuję. Kliknij na każdą grę, aby dowiedzieć się więcej.</p>
+            <div class="games-grid" id="gamesGrid">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="discord-cta">
+        <div class="container">
+            <h2>Dołącz do Naszej Społeczności Discord</h2>
+            <p>Połącz się z innymi widzami, otrzymuj powiadomienia o transmisjach na żywo, bierz udział w wieczorach gier i dołącz do naszych konwojów ETS2 oraz meczy eFootball!</p>
+            <a href="https://discord.gg/sHYStpqyX3" target="_blank" class="btn btn-light">Dołącz na Discord</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="/" class="logo">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                        <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
+                    </svg>
+                    <span>Vigoletto</span>
+                </a>
+                <p>Streamuję najlepsze rozgrywki z Euro Truck Simulator 2, Days Gone i wielu innych niesamowitych tytułów.</p>
+                <div class="social-links" id="socialLinks">
+
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Szybkie Linki</h3>
+                <ul>
+                    <li><a href="/">Strona Główna</a></li>
+                    <li><a href="/games/ets2.html">ETS2</a></li>
+                    <li><a href="/games/efootball.html">eFootball</a></li>
+                </ul>
+            </div>
+            <div class="footer-discord">
+                <h3>Dołącz do Społeczności</h3>
+                <p>Bądź częścią naszej niesamowitej społeczności. Czatuj, znajduj kompanów do gry i otrzymuj powiadomienia o streamach!</p>
+                <a href="https://discord.gg/sHYStpqyX3" target="_blank" class="btn btn-primary">Dołącz na Discord</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> Vigoletto. Wszelkie prawa zastrzeżone.</p>
+            <p>Stworzone z ❤️ przez fana</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
